@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onderzoekende Aanpak</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="body-research">
+    <div class="circle-mouse"></div>
+  <div class="inversion-layer"></div>
+
+  <nav class="navbar">
+    <div class="nav-menu">
+        <span class="nav-label">MENU</span>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="research.html">ONDERZOEKEN</a></li>
+            <li><a href="create.html">ONTWERPEN</a></li>
+            <li><a href="choice.html">KEUZE</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+    <header class="header-research">
+        <h1 class="h1-header-research"><span class="h1-header-research-span">O</span>NDERZOEKENDE<br><span class="h1-header-research-span">A</span>ANPAK</h1>
+    </header>
+
+    <main class="main-research-whole-page">
+        <h1 class="h1-research">Onderzoekende Aanpak</h1>
+
+        <h2 class="h2-research">Wat ik wilde leren</h2>
+        <p class="p-research">Ik wilde leren hoe ik beter onderzoek kan uitvoeren, bronnen kan analyseren en waardevolle inzichten kan halen uit artikelen. Daarnaast wilde ik mijn hypothese onderbouwen met data en mijn ideeën testen via verschillende onderzoeksmethoden.</p>
+
+        <h2 class="h2-research">Wat ik heb geleerd</h2>
+        <p class="p-research">Ik leerde een goed onderzoeksplan maken en uitvoeren. Ik kan nu sneller belangrijke informatie uit artikelen halen en de betrouwbaarheid van bronnen beoordelen. Ook begrijp ik beter hoe ik mijn conclusies visueel en praktisch kan presenteren.</p>
+
+        <h2 class="h2-research">Theorie</h2>
+        <p class="p-research">Na TLE1 Deel 1 las ik het boek <i class="i-research">Emotional Design</i> van Don Norman. Dit boek laat zien hoe emoties invloed hebben op hoe mensen problemen oplossen. Ik zie nu hoe de inzichten uit het boek mijn onderzoeken efficiënter kunnen maken. Door deze kennis te combineren met wat ik al had geleerd, begrijp ik beter hoe ontwerpen emoties en gedrag beïnvloeden.</p>
+
+        <h2 class="h2-research">Methoden</h2>
+        <p class="p-research">De Onderzoekende Aanpak volgde een paar stappen:</p>
+        <ul class="ul-research">
+            <li><strong class="strong-research">Science Fiction:</strong> Toekomstscenario's bedenken.</li>
+            <li><strong class="strong-research">Trendonderzoek:</strong> Analyseren van trends.</li>
+            <li><strong class="strong-research">Toekomstscenario's:</strong> Visies op de toekomst maken.</li>
+            <li><strong class="strong-research">Prototype Scenario's:</strong> Visualisaties en verhalen om concepten tastbaar te maken.</li>
+            <li><strong class="strong-research">Prototype Genereren:</strong> Testen met AI-gegenereerde media zoals foto's en video's.</li>
+            <li><strong class="strong-research">Onderzoeksplan opstellen & testen:</strong> Stappen definiëren en hypotheses testen.</li>
+            <li><strong class="strong-research">Customer Journey Mapping:</strong> De gebruikerservaring in kaart brengen.</li>
+        </ul>
+
+        <h2 class="h2-research">Ontwikkelgesprek</h2>
+        <p class="p-research">Tijdens het ontwikkelgesprek kreeg ik inzichten om mijn aanpak te verbeteren. Ik leerde hoe belangrijk het is om feedback te vragen aan peers en experts en dieper te zoeken naar relevante artikelen. Deze tips hebben mijn project sterk verbeterd.</p>
+
+        <h2 class="h2-research">Wat heb ik bereikt</h2>
+        <p class="p-research">Ik maakte een toekomstscenario dat laat zien hoe biodiverse parken de relatie tussen mens en natuur versterken. Mijn hypothese werd getest en ondersteund door interviews en prototypes. Deze methodische aanpak maakte mijn werk efficiënter en betrouwbaarder.</p>
+
+        <h2 class="h2-research">Waar ik trots op ben</h2>
+        <p class="p-research">Ik ben trots op hoe ik complexe ideeën kon vertalen naar heldere concepten en visuele prototypes. De feedback van gebruikers en experts heeft mijn project verbeterd en mijn onderzoeksvaardigheden aangescherpt.</p>
+
+
+    </main>
+
+
+    <section class="section-create-confetti">
+        <div class="textcontainer">
+            <span class="particletext confetti research-confetti">KLAAR MET<br>ONDERZOEKENDE<br>AANPAK</span>
+        </div>
+    </section>
+
+    <script>
+        const circle = document.querySelector('.circle-mouse');
+        const inversionLayer = document.querySelector('.inversion-layer');
+    
+        document.addEventListener('mousemove', (event) => {
+            const x = event.clientX;
+            const y = event.clientY;
+    
+            circle.style.left = `${x}px`;
+            circle.style.top = `${y}px`;
+    
+            inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
+        });
+      </script>
+      
+<script>
+    $.rnd = function (min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    };
+
+    function confetti() {
+        $.each($(".particletext.confetti"), function () {
+            var confetticount = ($(this).width() / 50) * 10;
+            for (var i = 0; i <= confetticount; i++) {
+                $(this).append(
+                    '<span class="particle c' +
+                        $.rnd(1, 2) +
+                        '" style="top:' +
+                        $.rnd(10, 50) +
+                        '%; left:' +
+                        $.rnd(0, 100) +
+                        '%; width:' +
+                        $.rnd(6, 8) +
+                        'px; height:' +
+                        $.rnd(3, 4) +
+                        'px; animation-delay: ' +
+                        $.rnd(0, 30) / 10 +
+                        's;"></span>'
+                );
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        confetti();
+    });
+</script>
+
+</body>
+</html>

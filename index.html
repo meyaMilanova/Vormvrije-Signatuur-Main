@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+
+    <div class="circle-mouse"></div>
+  <div class="inversion-layer"></div>
+
+
+  <nav class="navbar">
+    <div class="nav-menu">
+        <span class="nav-label">MENU</span>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="research.html">ONDERZOEKEN</a></li>
+            <li><a href="create.html">ONTWERPEN</a></li>
+            <li><a href="choice.html">KEUZE</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <header class="header-home">
+        <h1 class="h1-vorm">VORM</h1>
+        <h1 class="h1-vrije">VRIJE</h1>
+        <h1 class="h1-signatuur">SIGNATUUR</h1>
+        <div class="home-animation-elements">
+            <div class="winder">
+                <div class="winder-spinning"></div>
+                <div class="winder-spinning-two"></div>
+                <div class="winder-stick"></div>
+            </div>
+            <div class="button"></div>
+        </div>  
+    </header>
+
+    <main class="main-home">
+        <section class="grid-container">
+            <div class="grid-item">
+                <a href="#">
+                    <img src="/images/Spinner.png" alt="Spinner" class="circle">
+                </a>
+                <div class="line"></div>
+
+                <div class="inner">
+                    <i class="top left"></i>
+                    <i class="top right"></i>
+                    <a class="box" href="research.html">
+                        <span class="number-one">1</span>
+                        <p>ONDERZOEKENDE<br>AANPAK</p>
+                    </a>
+                    <i class="bottom right"></i>
+                    <i class="bottom left"></i>
+                </div>
+                <!-- <div class="box">
+                    <span class="number">1</span>
+                    <p>ONDERZOEKENDE<br>AANPAK</p>
+                </div> -->
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="/images/Spinner.png" alt="Spinner" class="circle">
+                </a>
+                <div class="line"></div>
+
+                <div class="inner">
+                    <i class="top left"></i>
+                    <i class="top right"></i>
+                    <a class="box" href="create.html">
+                        <span class="number">2</span>
+                        <p>ONTWERPENDE<br>AANPAK</p>
+                    </a>
+                    <i class="bottom right"></i>
+                    <i class="bottom left"></i>
+                </div>
+                <!-- <div class="box">
+                    <span class="number">2</span>
+                    <p>ONTWERPENDE<br>AANPAK</p>
+                </div> -->
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="/images/Spinner.png" alt="Spinner" class="circle">
+                </a>
+                <div class="line"></div>
+
+                <div class="inner">
+                    <i class="top left"></i>
+                    <i class="top right"></i>
+                    <a class="box" href="choice.html">
+                        <span class="number">3</span>
+                        <p>WAT IS<br>MIJN KEUZE</p>
+                    </a>
+                    <i class="bottom right"></i>
+                    <i class="bottom left"></i>
+                </div>
+                <!-- <div class="box">
+                    <span class="number">3</span>
+                    <p>MIJN<br>KEUZE</p>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    
+  <script>
+    const circle = document.querySelector('.circle-mouse');
+    const inversionLayer = document.querySelector('.inversion-layer');
+
+    document.addEventListener('mousemove', (event) => {
+        const x = event.clientX;
+        const y = event.clientY;
+
+        circle.style.left = `${x}px`;
+        circle.style.top = `${y}px`;
+
+        inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
+    });
+  </script>
+    
+</body>
+</html>
+
+
+
+

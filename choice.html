@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="body-choice">
+    <header class="header-choice-title">
+        <h1 class="h1-choice-title">KEUZE</h1>
+    </header>
+    
+<div class="circle-mouse"></div>
+  <div class="inversion-layer"></div>
+
+  <script>
+    const circle = document.querySelector('.circle-mouse');
+    const inversionLayer = document.querySelector('.inversion-layer');
+
+    document.addEventListener('mousemove', (event) => {
+        const x = event.clientX;
+        const y = event.clientY;
+
+        circle.style.left = `${x}px`;
+        circle.style.top = `${y}px`;
+
+        inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
+    });
+  </script>
+
+<nav class="navbar">
+    <div class="nav-menu">
+        <span class="nav-label">MENU</span>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="research.html">ONDERZOEKEN</a></li>
+            <li><a href="create.html">ONTWERPEN</a></li>
+            <li><a href="choice.html">KEUZE</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+    <!-- Website keuze -->
+
+
+  <section class="section-choice-web-research">
+     <h2 class="h2-choice-web-research">ONDERZOEKENDE<br>AANPAK</h2>
+     <p class="p-choice-web-research">Om de onderzoekende aanpak te tonen op de pagina en in het design, heb ik het in een artikel vorm geschreven en de code werd gecodeerd helemaal van ChatGPT (Prototype Genereren met GenAI).
+     </p>
+  </section>
+ 
+  <section class="section-choice-web-create">
+    <p class="p-choice-web-create">Voor de ontwerpende aanpak ben ik begonnen met het maken van schetsen, Crazy 8's en wireframes om het proces opnieuw door te lopen en beter weer te geven op de pagina. Door deze wireframes en schetsen te gebruiken, kon ik het ontwerp duidelijker presenteren. Daarnaast heb ik een prototype gemaakt in Figma.
+    </p>
+    <h2 class="h2-choice-web-create">ONTWERPENDE<br>AANPAK</h2>
+ </section>
+
+
+
+
+
+    <!-- Aanpak keuze -->
+
+
+<section class="section-choice-method">
+    <div class="div-choice-method">
+        <h2 class="h2-choice-method">AANPAK KEUZE</h2>
+        <p class="p-choice-method">Na mijn ervaringen met de onderzoekende en ontwerpende aanpak, weet ik nu dat ik de <span class="p-choice-method-span">Ontwerpende aanpak</span> veel beter vind. Deze aanpak is creatiever en laat me meer mijn eigen ideeën ontwikkelen. Het geeft ruimte om te visualiseren en om dingen tastbaar te maken, wat ik veel fijner vind dan alleen maar informatie verzamelen zoals bij de onderzoekende aanpak. Bij de onderzoekende aanpak voelde het vaak alsof ik gewoon feiten moest verzamelen, wat minder bij mijn werkstijl past.</p>
+    </div>
+    <p class="p-choice-method">Daarnaast was het veel moeilijker om feedback te krijgen bij de onderzoekende aanpak, vooral omdat het vaak over abstracte scenario's ging die mensen moeilijk konden voorstellen. Bij de ontwerpende aanpak was het veel makkelijker, omdat de visuele elementen concreter zijn. Hierdoor kon ik veel meer profiteren van de wekelijkse feedback en was het makkelijker om de wensen van de klant te begrijpen en toe te passen.</p>
+    <p class="p-choice-method"> Het <span class="p-choice-method-span">Storyboard</span> uit de ontwerpende aanpak vond ik persoonlijk veel nuttiger dan de <span class="p-choice-method-span">Customer Journey Mapping</span> van de onderzoekende aanpak. Het was visueler en logischer, wat het makkelijker maakte om mijn ideeën verder te ontwikkelen.</p>
+</section>
+
+
+
+
+
+    <!-- Toekomst -->
+
+
+<section class="section-choice-future">
+    <h2 class="h2-choice-future"><span>TOEKOMST</span></h2>
+    <p class="p-choice-future">In de toekomst wil ik me verder verbeteren door de ontwerpende aanpak te blijven gebruiken, maar ik wil ook leren om wat elementen van de onderzoekende aanpak toe te passen. Het analyseren van trends en het maken van scenario's zijn waardevolle tools, maar ik wil ze combineren met snel prototypen en visueel werken. Zo kan ik de beste aspecten van beide aanpakken gebruiken in mijn toekomstige projecten.</p>
+</section>
+
+
+</body>
+</html>
