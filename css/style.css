@@ -177,6 +177,7 @@ p {
 .header-home .h1-vorm {
     font-size: 48rem;
     margin: 0;
+    margin-top: -3rem;
     font-weight: 900;
 }
 
@@ -197,38 +198,8 @@ p {
     animation-delay: 2s;
 }
 
-@keyframes rotateText {
-    0% {
-        transform: rotate(0deg); 
-    }
-    20% {
-        transform: rotate(20deg);
-    }
-    40% {
-        transform: rotate(15deg);
-    }
-    60% {
-        transform: rotate(20deg);
-    }
-    80% {
-        transform: rotate(18deg);
-    }
-    99% {
-        transform: rotate(20deg); 
-    }
-    100% {
-        transform: rotate(20deg); 
-    }
-}
-
-.home-animation-elements {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-}
-
 .winder {
-    margin: 34rem 0 0 20rem;
+    margin: 3rem 0 0 20rem;
     position: relative; 
 }
 
@@ -276,54 +247,6 @@ p {
         width: 15rem;
     }
 }
-
-
-.button {
-    height: 3rem;
-    width: 5rem;
-    background-color: #AAB527;
-    margin-right: 28rem;
-    border-radius: 1rem 1rem 0 0;
-    animation: buttonPress 1s ease-out 1 forwards;
-    animation-delay: 2s;
-}
-
-@keyframes buttonPress {
-    0% {
-        height: 3rem;
-    }
-    18% {
-        height: 3rem;
-    }
-    20% {
-        height: 1.5rem;
-    }
-    40% {
-        height: 3rem;
-    }
-    59% {
-        height: 3rem;
-    }
-    60% {
-        height: 1.5rem;
-    }
-    80% {
-        height: 3rem;
-    }
-    98% {
-        height: 3rem;
-    }
-    99% {
-        height: 1.5rem;
-    }
-    100% {
-        height: 1.5rem; 
-    }
-}
-
-
-
-
 
 .main-home {
     background-color: black;
@@ -373,7 +296,7 @@ p {
     background-color: white;
     margin-top: -1rem;
     animation: goingUp 4.5s ease-out 1 forwards;
-    animation-delay: 1.2s;
+    animation-delay: 3.2s;
     transform-origin: 0% 50%; 
 }
 
@@ -445,54 +368,6 @@ p {
     margin-right: -1.5rem;
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-create {
     background-color: #000;
 }
@@ -525,13 +400,6 @@ p {
     margin-bottom: 1rem;
 }
 
-/* .p-create-wanted {
-    font-size: 1.6rem;
-    letter-spacing: 0.3rem;
-    line-height: 4.5rem;
-    font-weight: 800;
-} */
-
 .juiser-up-side-down{
     rotate: 180deg;
     height: 130vh;
@@ -549,21 +417,6 @@ p {
     color: #fff;
     margin: 19vh 0 44vh 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section-create-learned-lemon {
     color: #fff;
@@ -618,17 +471,6 @@ p {
     margin: 20vh 90vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .section-create-theory {
     color: #000;
     margin-left: 81.25vw;
@@ -644,22 +486,6 @@ p {
     margin-left: 18.75vw;
     text-align: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .green-div {
     position: relative;
@@ -720,10 +546,6 @@ p {
     font-weight: 500;
 }
 
-
-
-
-
 .div-create-solution-sketches{
     display: flex;
     align-items: center;
@@ -752,11 +574,6 @@ p {
     margin-bottom: 5vh;
 }
 
-
-
-
-
-
 .section-create-job-products {
     color: #000;
     margin-left: 81.25vw;
@@ -775,16 +592,6 @@ p {
     /* margin-left: 18.75vw; */
     text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
 
 .section-create-talk {
     margin: 15vh 6.25vw;
@@ -805,15 +612,6 @@ p {
     height: auto;
     margin-top: -67vh;
 }
-
-
-
-
-
-
-
-
-
 
 .section-create-book-cover {
     color: #fff;
@@ -882,25 +680,6 @@ p {
 .h5-create-book-cover-span {
     font-style: italic;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section-create-book-text{
     background-color: #fff;
@@ -977,24 +756,6 @@ p {
     margin: 6vh 12.5vw 3.5vh 12.5vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section-create-gallery {
     color: #fff;
 }
@@ -1033,18 +794,6 @@ p {
     height: 30vh;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .section-create-proud {
     background-color: #000;
 }
@@ -1056,13 +805,6 @@ p {
     color: #fff;
     margin: 0;
 }
-
-
-
-
-
-
-
 
 .section-create-proud-of {
     color: #fff;
@@ -1096,18 +838,6 @@ p {
 .p-create-proud-of {
     width: 20vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .section-create-confetti {
     position: relative;
@@ -1156,23 +886,6 @@ p {
         opacity: 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .body-research {
     background-color: #000;
@@ -1231,7 +944,6 @@ p {
     font-style: italic;
 }
 
-/* Styling for lists */
 .ul-research {
     list-style-type: none;
     padding-left: 0;
@@ -1250,54 +962,6 @@ p {
 .research-confetti {
     font-size: 16.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .body-choice {
     background-color: #000;
@@ -1370,9 +1034,6 @@ p {
     text-align: center;
 }
 
-
-
-
 .section-choice-method {
     margin: 0 6.25vw;
 }
@@ -1397,8 +1058,6 @@ p {
     font-size: 2rem;
 }
 
-
-
 .section-choice-future {
     margin-top: 30vh;
     margin-bottom: 25vh;
@@ -1408,31 +1067,14 @@ p {
     background-color: #AAB527;
     color: #000;
     font-size: 25.9rem;
-    text-align: right;
+    text-align: center;
     line-height: 23.5rem;
 }
 
 .p-choice-future {
     padding: 0 12.5vw;
     margin-top: -15vh;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .navbar {
     position: fixed;
@@ -1483,7 +1125,6 @@ p {
 
 .nav-links li {
     margin: 1rem 1rem;
-
 }
 
 .nav-links a {
@@ -1514,53 +1155,9 @@ p {
     padding: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
     margin: 0;
     background-color: #f5f5f5;
-    /* overflow: hidden; */
-    /* font-family: Arial, sans-serif; */
   }
 
   .circle-mouse {
@@ -1584,38 +1181,406 @@ body {
     clip-path: circle(0px at 0px 0px);
     z-index: 1000;
   }
-/* 
-  .colored {
-    width: 200px;
-    height: 200px;
-    margin: 50px;
-    display: inline-block;
-    background-color: rgb(135, 206, 250);
-    color: white;
-    text-align: center;
-    line-height: 200px;
-    font-size: 18px;
+
+
+
+
+  @media (max-width: 2550px) and (min-width: 1920px) {
+    h2 {
+        font-size: 8rem;
+    }
+    
+    p {
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+        line-height: 4.5rem;
+    }
+
+    .header-home .h1-vorm {
+        font-size: 37rem;
+    }
+    
+    .header-home .h1-vrije {
+        font-size: 10rem;
+        margin-top: -8rem;
+    }
+    
+    .header-home .h1-signatuur {
+        font-size: 16rem;
+        margin-top: -4rem;
+    }
+
+
+    .h1-ontwerpende {
+        font-size: 12rem;
+        letter-spacing: 1rem;
+        margin: 22vh 0;
+    }
+    
+    .span-ontwerpende {
+        font-size: 19rem;
+    }
+
+
+    .h2-create-but {
+        font-size: 11rem;
+        margin: 19vh 0 44vh 0;
+    }
+
+    .h2-create-learned {
+        margin-top: 20vh;
+    }
+
+    .line-lemon {
+        height: 32rem;
+    }
+
+    .h2-create-book-cover {
+        letter-spacing: 4.2rem;
+        font-size: 11rem;
+        line-height: 17rem;
+    }
+
+    .h3-create-book-cover {
+        font-size: 3rem;
+        letter-spacing: 1.8rem;
+        line-height: 7rem;
+        margin-top: 15vh;
+    }
+    
+    .h3-create-book-cover-span {
+        font-size: 2rem;
+        letter-spacing: 1rem;
+    }
+    
+    .h4-create-book-cover {
+        font-size: 3rem;
+        letter-spacing: 1.8rem;
+        line-height: 7rem;
+    }
+    
+    .h5-create-book-cover {
+        font-size: 1.2rem;
+        letter-spacing: 0.5rem;
+        line-height: 3rem;
+    }
+
+    .img-create-juicer {
+        margin-top: -36vh;
+    }
+
+    .ol-create-book-text {
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .h3-create-gallery {
+        font-size: 4.4rem;
+    }
+
+    .textcontainer {
+        font-size: 15rem;  
+    }
+
+
+    .h1-header-research{
+        font-size: 10rem;
+    }
+    
+    .h1-header-research-span {
+        font-size: 17rem;
+    }
+
+    .research-confetti {
+        font-size: 12.5rem;
+    }
+
+
+    .h1-choice-title {
+        font-size: 33rem;
+    }
+
+    .h2-choice-web-research {
+        font-size: 6.2rem;
+    }
+
+    .h2-choice-web-create  {
+        font-size: 6.2rem;
+    }
+
+    .h2-choice-method {
+        font-size: 11rem;
+    }
+
+    .h2-choice-future {
+        font-size: 19.5rem;
+        line-height: 23.5rem;
+    }
+
+
   }
 
-  p {
-    padding: 20px;
-  } */
 
+  @media (max-width: 1920px) and (min-width: 1200px) {
+    h2 {
+        font-size: 5.5rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+        letter-spacing: 0rem;
+        line-height: 3rem;
+    }
 
+    .header-home .h1-vorm {
+        font-size: 23rem;
+    }
+    
+    .header-home .h1-vrije {
+        font-size: 8rem;
+        margin-top: -5rem;
+    }
+    
+    .header-home .h1-signatuur {
+        font-size: 11rem;
+        margin-top: -3rem;
+    }
 
+    .main-home {
+        padding: 10rem 0;
+    }
 
+    .grid-container {
+        gap: 0rem;
+        max-width: 85vw;
+    }
 
+    .box {
+        width: 20vw;
+    }
 
+    .number-one {
+        font-size: 7.5rem;
+    }
+    
+    .number {
+        font-size: 7.5rem;
+    }
 
+    .h1-ontwerpende {
+        font-size: 7rem;
+        margin: 28vh 0;
+    }
+    
+    .span-ontwerpende {
+        font-size: 11rem;
+    }
 
+    .h2-create-but {
+        font-size: 9rem;
+    }
 
+    .line-lemon {
+        height: 27rem;
+    }
 
+    .white-div {
+        height: 500vh; 
+    }
 
+    .green-div {
+        height: 250vh; 
+    }
 
+    .img-teapot {
+        width: 45vw;
+        height: auto;
+        margin-top: -47vh;
+    }
 
+    .section-create-talk {
+        margin: 15vh 6.25vw 0vh 6.25vw;
+    }
 
+    .h2-create-book-cover {
+        letter-spacing: 3.5rem;
+        font-size: 6rem;
+        line-height: 12rem;
+    }
 
+    .h3-create-book-cover {
+        font-size: 2rem;
+        letter-spacing: 1.5rem;
+        line-height: 6rem;
+        margin-top: 15vh;
+    }
+    
+    .h3-create-book-cover-span {
+        font-size: 1.4rem;
+        letter-spacing: 1rem;
+    }
+    
+    .h4-create-book-cover {
+        font-size: 2rem;
+        letter-spacing: 1.5rem;
+        line-height: 6rem;
+    }
+    
+    .h5-create-book-cover {
+        font-size: 1rem;
+        letter-spacing: 0.5rem;
+        line-height: 3rem;
+    }
 
+    .img-create-juicer {
+        margin-top: -36vh;
+    }
+
+    .ol-create-book-text {
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .h4-create-book-text-top {
+        margin-left: -7vw;
+        font-size: 2rem;
+    }
+    
+    .h4-create-book-text-span {
+        font-size: 3rem;
+    }
+
+    .h3-create-book-text {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 300;
+        font-size: 2.2rem;
+        letter-spacing: 0.4rem;
+        margin: 0 12.5vw;
+    }
+
+    .ol-create-book-text {
+        font-size: 1.1rem;
+        letter-spacing: 0rem;
+        line-height: 3rem;
+    }
+
+    .h4-create-book-text {
+        font-size: 2rem;
+    }
+
+    .h3-create-gallery {
+        color: #AAB527;
+        font-size: 2.7rem;
+        text-align: center;
+    }
+
+    .gallery-image {
+        width: auto;
+        height: 25vh;
+        margin-left: 0.3vw;
+    }
+
+    .textcontainer {
+        font-size: 8.8rem;
+    }
+
+    .h1-header-research {
+        font-size: 5.8rem;
+        margin: 28vh 0;
+    }
+    
+    .h1-header-research-span {
+        font-size: 9.5rem;
+    }
+
+    .h1-research {
+        font-size: 4rem;
+    }
+    
+    .h2-research {
+        font-size: 1.3rem;
+    }
+    
+    .p-research {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .main-research-whole-page {
+        width: 75vw;
+    }
+
+    .research-confetti {
+        font-size: 7.5rem;
+    }
+
+    .h1-choice-title {
+        font-size: 20rem;
+    }
+
+    .h2-choice-web-research {
+        font-size: 3rem;
+    }
+
+    .p-choice-web-research {
+        height: auto;
+        margin: 0 0.3vw;
+        padding: 5vh 8rem;
+    }
+
+    .h2-choice-web-create {
+        font-size: 3rem;
+    }
+
+    .p-choice-web-create {
+        height: auto;
+        margin: 0 0.3vw;
+        padding: 5vh 8rem;
+    }
+
+    .h2-choice-method {
+        font-size: 6rem;
+        line-height: 10rem;
+    }
+
+    .p-choice-method-span {
+        font-size: 1.2rem;
+    }
+
+    .h2-choice-future {
+        font-size: 11.6rem;
+        line-height: 11.6rem;
+    }
+
+    .navbar:hover {
+        width: 10rem;
+    }
+
+    .nav-label {
+        font-size: 1.3rem;
+    }
+
+    .nav-links {
+        margin-top: 0.5rem;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.7rem;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: white;
+        border-radius: 100%; 
+        height: 7rem; 
+        width: 7rem; 
+        transition: background-color 0.2s;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    }
+  }
 
 
 
