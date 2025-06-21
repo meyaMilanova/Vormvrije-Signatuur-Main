@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ondernemende Aanpak</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="circle-mouse"></div>
+    <div class="inversion-layer"></div>
+
+    <nav class="navbar2">
+        <div class="nav-menu2">
+            <span class="nav-label2">MENU</span>
+            <ul class="nav-links2">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="involved.html">BETROKKEN</a></li>
+                <li><a href="enterprising.html">ONDERNEMEN</a></li>
+                <li><a href="choice-2.html">KEUZE</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header-create">
+        <h1 class="h1-ontwerpende"><span class="span-ontwerpende">B</span>ETROKKEN<br><span class="span-ontwerpende">A</span>ANPAK</h1>
+    </header>
+
+    <main>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const circle = document.querySelector('.circle-mouse');
+        const inversionLayer = document.querySelector('.inversion-layer');
+
+        document.addEventListener('mousemove', (event) => {
+            const x = event.clientX;
+            const y = event.clientY;
+
+            circle.style.left = `${x}px`;
+            circle.style.top = `${y}px`;
+
+            inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
+        });
+    </script>
+    <script>
+        $.rnd = function (min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        };
+
+        function confetti() {
+            $.each($(".particletext.confetti"), function () {
+                var confetticount = ($(this).width() / 50) * 10;
+                for (var i = 0; i <= confetticount; i++) {
+                    $(this).append(
+                        '<span class="particle c' +
+                        $.rnd(1, 2) +
+                        '" style="top:' +
+                        $.rnd(10, 50) +
+                        '%; left:' +
+                        $.rnd(0, 100) +
+                        '%; width:' +
+                        $.rnd(6, 8) +
+                        'px; height:' +
+                        $.rnd(3, 4) +
+                        'px; animation-delay: ' +
+                        $.rnd(0, 30) / 10 +
+                        's;"></span>'
+                    );
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            confetti();
+        });
+    </script>
+
+</body>
+</html>

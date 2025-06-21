@@ -109,6 +109,11 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Gotham';
+    src: url(/fonts/HomepageBaukasten-Bold.otf) format('opentype');
+}
+
 html  {
     margin: 0;
 }
@@ -169,6 +174,80 @@ p {
     line-height: 4.5rem;
 }
 
+.h1-am {
+    font-size: 22rem;
+    margin: 0;
+    font-weight: 900;
+    line-height: 22rem;
+    padding-top: 7rem;
+}
+
+.h2-j2 {
+    line-height: 0;
+    margin-top: 6rem;
+}
+
+.h3-bmm {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+}
+
+.section-main {
+    background-color: black;
+    margin-top: 10rem;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10vw;
+}
+
+.div-mix {
+    border-radius: 100rem;
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1 {
+    background-color: #AAB527;
+}
+
+.div-2 {
+    background-color: #FF5A00;
+}
+
+.div-3 {
+    background-color: #BD2FC4;
+}
+
+.a-main {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    transition: font-size 0.3s ease-in-out;
+    padding: 9rem;
+}
+
+.a-main-3 {
+    padding: 7.8rem;
+}
+
+.a-main:hover {
+    font-size: 3.3rem;
+}
+
+.a-main:active {
+    font-size: 2.3rem;
+}
+
 .header-home {
     text-align: center;
     position: relative;
@@ -197,6 +276,39 @@ p {
     transform-origin: 0% 50%; 
     animation-delay: 2s;
 }
+
+
+
+.header-home2 {
+    text-align: center;
+    position: relative;
+}
+
+.header-home2 .h1-vorm2 {
+    font-size: 48rem;
+    margin: 0;
+    margin-top: -6rem;
+    font-weight: 900;
+}
+
+.header-home2 .h1-vrije2 {
+    font-size: 13rem;
+    margin: 0;
+    font-weight: 900;
+    margin-top: -8rem;
+}
+
+.header-home2 .h1-signatuur2 {
+    font-size: 20rem;
+    margin: 0;
+    font-weight: 900;
+    margin-top: -4rem;
+    animation: rotateText 1s ease-out 1 forwards;
+    transform-origin: 0% 50%;
+    animation-delay: 2s;
+}
+
+
 
 .winder {
     margin: 3rem 0 0 20rem;
@@ -234,6 +346,46 @@ p {
     margin-left: 6rem;
     margin-top: 3rem;
 }
+
+
+
+
+
+.winder-spinning2 {
+    height: 3rem;
+    width: 15rem;
+    background-color: #FFF;
+    border-radius: 3rem;
+    animation: spinningWinder 0.9s ease-out 5 forwards;
+    animation-delay: 3.2s;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.winder-spinning-two2 {
+    height: 3rem;
+    width: 3rem;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 6rem;
+    border-radius: 3rem 3rem 0 0;
+}
+
+.winder-stick2 {
+    height: 8rem;
+    width: 3rem;
+    background-color: #FFF;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+
+
+
 
 @keyframes spinningWinder {
     0% {
@@ -279,6 +431,14 @@ p {
     transform-origin: 50% 50%;
 }
 
+
+.circle2 {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100rem;
+    background-color: #FF5A00;
+}
+
 @keyframes inCircle {
     0% {
         transform: rotate(0deg);
@@ -299,6 +459,20 @@ p {
     animation-delay: 3.2s;
     transform-origin: 0% 50%; 
 }
+
+
+.line2 {
+    z-index: 1;
+    width: 0.1rem;
+    height: 50rem;
+    background-color: white;
+    margin-top: 0rem;
+    animation: goingUp 4.5s ease-out 1 forwards;
+    animation-delay: 3.2s;
+    transform-origin: 0% 50%;
+}
+
+
 
 @keyframes goingUp {
     0% {
@@ -367,6 +541,23 @@ p {
     float: right;
     margin-right: -1.5rem;
   }
+
+.body-orange{
+    background-color: #FF5A00;
+    font-family: "Gotham";
+}
+
+
+
+
+
+
+
+
+
+
+
+
   
 .main-create {
     background-color: #000;
@@ -582,7 +773,7 @@ p {
 
 .h2-create-job-products {
     margin-bottom: 1rem;
-    width: 87.5;
+    width: 87.5vw;
     text-align: right;
     margin-top: 0;
 }
@@ -1089,11 +1280,36 @@ p {
     z-index: 15;
 }
 
+.navbar2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 100vh;
+    background-color: #FFFFFF;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    z-index: 15;
+}
+
 .navbar:hover {
     width: 12rem;
 }
 
+.navbar2:hover {
+    width: 12rem;
+}
+
 .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100%;
+    padding-top: 2rem;
+}
+
+.nav-menu2 {
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -1111,7 +1327,25 @@ p {
     cursor: pointer;
 }
 
+.nav-label2 {
+    writing-mode: vertical-rl;
+    text-align: center;
+    transform: rotate(180deg);
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
 .nav-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    width: 100%;
+    display: none; /* Initially hidden */
+}
+
+.nav-links2 {
     list-style: none;
     padding: 0;
     margin-top: 2rem;
@@ -1150,6 +1384,37 @@ p {
     font-weight: 900;
 }
 
+.navbar2:hover .nav-links2 {
+    display: block; /* Show on hover */
+}
+
+.nav-links2 li {
+    margin: 1rem 1rem;
+}
+
+.nav-links2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5A00;
+    border-radius: 100%;
+    height: 10rem;
+    width: 10rem;
+    transition: background-color 0.2s;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+.nav-links2 a:hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+}
+
 .content {
     margin-left: 3rem;
     padding: 1rem;
@@ -1184,6 +1449,24 @@ body {
 
 
 
+  .splash {
+      background: url("images/upscalemedia-transformed (9).png");
+      height: 30vw;
+      width: 30vw;
+      margin-left: -9vw;
+      margin-right: -7.5vw;
+      rotate: 86.5deg;
+      z-index: -5;
+  }
+
+  .div-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+
 
   @media (max-width: 2550px) and (min-width: 1920px) {
     h2 {
@@ -1210,6 +1493,21 @@ body {
         margin-top: -4rem;
     }
 
+
+
+      .header-home2 .h1-vorm2 {
+          font-size: 37rem;
+      }
+
+      .header-home2 .h1-vrije2 {
+          font-size: 10rem;
+          margin-top: -8rem;
+      }
+
+      .header-home2 .h1-signatuur2 {
+          font-size: 16rem;
+          margin-top: -4rem;
+      }
 
     .h1-ontwerpende {
         font-size: 12rem;
@@ -1345,6 +1643,20 @@ body {
         font-size: 11rem;
         margin-top: -3rem;
     }
+
+      .header-home2 .h1-vorm2 {
+          font-size: 23rem;
+      }
+
+      .header-home2 .h1-vrije2 {
+          font-size: 8rem;
+          margin-top: -5rem;
+      }
+
+      .header-home2 .h1-signatuur2 {
+          font-size: 11rem;
+          margin-top: -3rem;
+      }
 
     .main-home {
         padding: 10rem 0;
@@ -1570,15 +1882,48 @@ body {
         font-size: 0.7rem;
         letter-spacing: 0.1rem;
         font-weight: 700;
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: white;
-        border-radius: 100%; 
-        height: 7rem; 
-        width: 7rem; 
+        border-radius: 100%;
+        height: 7rem;
+        width: 7rem;
         transition: background-color 0.2s;
         box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    }
+
+
+
+
+
+        .navbar2:hover {
+            width: 10rem;
+        }
+
+        .nav-label2 {
+            font-size: 1.3rem;
+        }
+
+        .nav-links2 {
+            margin-top: 0.5rem;
+        }
+
+        .nav-links2 a {
+            text-decoration: none;
+            color: black;
+            font-size: 0.7rem;
+            letter-spacing: 0.1rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: 100%;
+            height: 7rem;
+            width: 7rem;
+            transition: background-color 0.2s;
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
     }
   }
 

@@ -12,117 +12,47 @@
     <div class="circle-mouse"></div>
   <div class="inversion-layer"></div>
 
-
-  <nav class="navbar">
-    <div class="nav-menu">
-        <span class="nav-label">MENU</span>
-        <ul class="nav-links">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="research.html">ONDERZOEKEN</a></li>
-            <li><a href="create.html">ONTWERPEN</a></li>
-            <li><a href="choice.html">KEUZE</a></li>
-        </ul>
-    </div>
-</nav>
-
     <header class="header-home">
-        <h1 class="h1-vorm">VORM</h1>
-        <h1 class="h1-vrije">VRIJE</h1>
-        <h1 class="h1-signatuur">SIGNATUUR</h1>
-        <div class="home-animation-elements">
-            <div class="winder">
-                <div class="winder-spinning"></div>
-                <div class="winder-spinning-two"></div>
-                <div class="winder-stick"></div>
-            </div>
-            <div class="button"></div>
-        </div>  
+        <h1 class="h1-am">AANPAK METHODES</h1>
+        <h2 class="h2-j2">JAAR 2</h2>
+        <h3 class="h3-bmm">BIJ MILANELA MILANOVA</h3>
     </header>
 
-    <main class="main-home">
-        <section class="grid-container">
-            <div class="grid-item">
-                <a href="#">
-                    <img src="images/Spinner.png" alt="Spinner" class="circle">
-                </a>
-                <div class="line"></div>
+    <section class="section-main">
+        <div class="div-mix div-1">
+            <a href="vs-1.html" class="a-main">VS1</a>
+        </div>
 
-                <div class="inner">
-                    <i class="top left"></i>
-                    <i class="top right"></i>
-                    <a class="box" href="research.html">
-                        <span class="number-one">1</span>
-                        <p>ONDERZOEKENDE<br>AANPAK</p>
-                    </a>
-                    <i class="bottom right"></i>
-                    <i class="bottom left"></i>
-                </div>
-                <!-- <div class="box">
-                    <span class="number">1</span>
-                    <p>ONDERZOEKENDE<br>AANPAK</p>
-                </div> -->
-            </div>
-            <div class="grid-item">
-                <a href="#">
-                    <img src="images/Spinner.png" alt="Spinner" class="circle">
-                </a>
-                <div class="line"></div>
+        <div class="div-mix div-2">
+            <a href="vs-2.html" class="a-main">VS2</a>
+        </div>
 
-                <div class="inner">
-                    <i class="top left"></i>
-                    <i class="top right"></i>
-                    <a class="box" href="create.html">
-                        <span class="number">2</span>
-                        <p>ONTWERPENDE<br>AANPAK</p>
-                    </a>
-                    <i class="bottom right"></i>
-                    <i class="bottom left"></i>
-                </div>
-                <!-- <div class="box">
-                    <span class="number">2</span>
-                    <p>ONTWERPENDE<br>AANPAK</p>
-                </div> -->
-            </div>
-            <div class="grid-item">
-                <a href="#">
-                    <img src="images/Spinner.png" alt="Spinner" class="circle">
-                </a>
-                <div class="line"></div>
+        <div class="div-mix div-3">
+            <a href="main-end.html" class="a-main a-main-3">HET EINDE</a>
+        </div>
+    </section>
 
-                <div class="inner">
-                    <i class="top left"></i>
-                    <i class="top right"></i>
-                    <a class="box" href="choice.html">
-                        <span class="number">3</span>
-                        <p>WAT IS<br>MIJN KEUZE</p>
-                    </a>
-                    <i class="bottom right"></i>
-                    <i class="bottom left"></i>
-                </div>
-                <!-- <div class="box">
-                    <span class="number">3</span>
-                    <p>MIJN<br>KEUZE</p>
-                </div> -->
-            </div>
-        </section>
-    </main>
 
-    
-  <script>
-    const circle = document.querySelector('.circle-mouse');
-    const inversionLayer = document.querySelector('.inversion-layer');
 
-    document.addEventListener('mousemove', (event) => {
-        const x = event.clientX;
-        const y = event.clientY;
 
-        circle.style.left = `${x}px`;
-        circle.style.top = `${y}px`;
 
-        inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
-    });
-  </script>
-    
+
+
+
+    <script>
+        const circle = document.querySelector('.circle-mouse');
+        const inversionLayer = document.querySelector('.inversion-layer');
+
+        document.addEventListener('mousemove', (event) => {
+            const x = event.clientX;
+            const y = event.clientY;
+
+            circle.style.left = `${x}px`;
+            circle.style.top = `${y}px`;
+
+            inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
+        });
+    </script>
 </body>
 </html>
 
