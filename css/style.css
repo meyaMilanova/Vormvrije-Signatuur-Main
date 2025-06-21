@@ -111,7 +111,7 @@
 
 @font-face {
     font-family: 'Gotham';
-    src: url(/fonts/HomepageBaukasten-Bold.otf) format('opentype');
+    src: url(../fonts/HomepageBaukasten-Bold.otf) format('opentype');
 }
 
 html  {
