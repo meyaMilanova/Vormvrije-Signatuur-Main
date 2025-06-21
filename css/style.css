@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 @font-face {
     font-family: 'Helvetica Neue';
     src: url(/fonts/HelveticaNeueUltraLight.otf) format('opentype');
@@ -569,7 +572,7 @@ p {
     font-weight: 900;
     letter-spacing: 1rem;
     text-align: right;
-    margin: 22vh 0;
+    padding: 22vh 0;
 }
 
 .span-ontwerpende {
@@ -580,6 +583,11 @@ p {
     display: flex;
     margin-left: 6.25vw;
     justify-content: space-between;
+}
+
+.header-create {
+    background-color: #FFFFFF;
+    height: 100vh;
 }
 
 .div-one-section-create-wanted {
@@ -1465,6 +1473,98 @@ body {
       align-items: center;
   }
 
+  .main-bet {
+      background-color: black;
+      width: 100vw;
+  }
+
+.body-black {
+    background-color: black;
+}
+
+.section-bet1 {
+    color: #FFFFFF;
+}
+
+.custom-flex {
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    align-items: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1512,7 +1612,7 @@ body {
     .h1-ontwerpende {
         font-size: 12rem;
         letter-spacing: 1rem;
-        margin: 22vh 0;
+        padding: 22vh 0;
     }
     
     .span-ontwerpende {
@@ -1681,7 +1781,7 @@ body {
 
     .h1-ontwerpende {
         font-size: 7rem;
-        margin: 28vh 0;
+        padding: 28vh 0;
     }
     
     .span-ontwerpende {

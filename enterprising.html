@@ -8,7 +8,7 @@
     <title>Ondernemende Aanpak</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="body-black">
     <div class="circle-mouse"></div>
     <div class="inversion-layer"></div>
 
@@ -28,8 +28,20 @@
         <h1 class="h1-ontwerpende"><span class="span-ontwerpende">B</span>ETROKKEN<br><span class="span-ontwerpende">A</span>ANPAK</h1>
     </header>
 
-    <main>
-
+    <main class="main-bet">
+        <section class="section-bet1">
+            <div class="custom-flex">
+                <h2>WAT WILDE IK LEREN</h2>
+                <p class="text-red-500">Ondanks dat ik nooit veel interesse heb gehad in het zakelijke aspect, was ik nieuwsgierig naar hoe branding en uniek design bijdragen aan een bedrijf. Ik hoopte hier meer inzicht in te krijgen en dit te kunnen toepassen op toekomstige projecten.
+                </p>
+            </div>
+            <img src="images/BETROKKEN/upscalemedia-transformed%20(9).png" alt="Decoration flower">
+            <div>
+                <h2>GELEERD?</h2>
+                <p>Tijdens deze aanpak heb ik geleerd hoe belangrijk het is om aannames te valideren en hoe je kunt focussen op de daadwerkelijke behoeften van je doelgroep in plaats van simpele oplossingen te bieden. Het concept van "jobs to be done" heeft me geholpen om te begrijpen dat mensen geen producten kopen, maar een specifiek probleem willen oplossen. Het Value Proposition Canvas bood daarbij hulp pm het in kaart te brengen.
+                </p>
+            </div>
+        </section>
 
 
     </main>
@@ -60,38 +72,6 @@
             circle.style.top = `${y}px`;
 
             inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
-        });
-    </script>
-    <script>
-        $.rnd = function (min, max) {
-            return Math.floor(Math.random() * (max - min + 1)) + min;
-        };
-
-        function confetti() {
-            $.each($(".particletext.confetti"), function () {
-                var confetticount = ($(this).width() / 50) * 10;
-                for (var i = 0; i <= confetticount; i++) {
-                    $(this).append(
-                        '<span class="particle c' +
-                        $.rnd(1, 2) +
-                        '" style="top:' +
-                        $.rnd(10, 50) +
-                        '%; left:' +
-                        $.rnd(0, 100) +
-                        '%; width:' +
-                        $.rnd(6, 8) +
-                        'px; height:' +
-                        $.rnd(3, 4) +
-                        'px; animation-delay: ' +
-                        $.rnd(0, 30) / 10 +
-                        's;"></span>'
-                    );
-                }
-            });
-        }
-
-        $(document).ready(function () {
-            confetti();
         });
     </script>
 
