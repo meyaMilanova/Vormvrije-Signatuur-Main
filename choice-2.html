@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body-choice body-green">
+<header class="header-choice-title">
+    <h1 class="h1-choice-title">KEUZE</h1>
+</header>
+
+<div class="circle-mouse"></div>
+<div class="inversion-layer"></div>
+
+<script>
+    const circle = document.querySelector('.circle-mouse');
+    const inversionLayer = document.querySelector('.inversion-layer');
+
+    document.addEventListener('mousemove', (event) => {
+        const x = event.clientX;
+        const y = event.clientY;
+
+        circle.style.left = `${x}px`;
+        circle.style.top = `${y}px`;
+
+        inversionLayer.style.clipPath = `circle(75px at ${x}px ${y}px)`;
+    });
+</script>
+
+<nav class="navbar2">
+    <div class="nav-menu2">
+        <span class="nav-label2">MENU</span>
+        <ul class="nav-links2">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="involved.html">BETROKKEN</a></li>
+            <li><a href="enterprising.html">ONDERNEMEN</a></li>
+            <li><a href="choice-2.html">KEUZE</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+<!-- Website keuze -->
+
+<section>
+    <h2>BETROKKEN</h2>
+    <div>
+        <img>
+        <p>Om de Betrokken aanpak te tonen op de pagina, heb ik gekozen voor twee waarden: informeren en betrokkenheid. Bij informeren ligt de nadruk op onderzoek en het delen van veel tekst en inzichten. Betrokkenheid benadrukt dat ik zelf deel uitmaak van de doelgroep, waardoor mijn eigen designperspectief een centrale rol speelt in het proces. Deze aanpak combineert rationele analyse met persoonlijke betrokkenheid.</p>
+        <h2>AANPAK</h2>
+    </div>
+</section>
+
+<section>
+    <h2>ONDERNEMENDE</h2>
+    <div>
+        <h2>AANPAK</h2>
+        <p>Voor de Ondernemende aanpak heb ik mezelf uitgedaagd door de pagina te ontwerpen met het archetype dat het minst dominant was in mijn testresultaten: The Rebel (35%) samen met een van mijn hoogste resultaat: The Lover (90%). Dit betekende experimenteren met onconventionele ideeën, opvallende visuele elementen en een gedurfde stijl. Door deze aanpak heb ik niet alleen mijn creativiteit getest, maar ook ontdekt hoe een rebelse benadering een unieke en krachtige branding kan opleveren.
+        </p>
+        <img>
+    </div>
+</section>
+
+<section>
+    <h2>AANPAK<br/>KEUZE</h2>
+    <div>
+        <p>Na mijn ervaringen met beide aanpakken merk ik dat de <span>Betrokken aanpak</span> me iets meer aanspreekt. Het proces van waarden en perspectieven verkennen, en het gebruik van Critical Making, voelde betekenisvoller en creatiever. Het dwong me om breder te denken en met complexe ideeën te werken.
+        </p>
+        <p>De <span>Ondernemende aanpak</span> vond ik echter ook interessant, vooral door de praktische tools zoals Jung’s Archetypes en de focus op het oplossen van specifieke problemen. Deze aanpak voelt doelgericht en gestructureerd, wat me hielp om duidelijke keuzes te maken.
+        </p>
+    </div>
+</section>
+
+<section>
+    <p>In de toekomst wil ik de Betrokken aanpak blijven gebruiken vanwege de diepgang en het creatieve proces, maar ik wil ook elementen van de Ondernemende aanpak combineren. Het valideren van ideeën en het toepassen van frameworks zoals Jobs to Be Done zijn waardevolle toevoegingen. Door de kracht van beide aanpakken te combineren, hoop ik mijn projecten naar een hoger niveau te tillen.
+    </p>
+    <h2>TOEKOMST</h2>
+</section>
+
+
+
+
+
+
+
+</body>
+</html>

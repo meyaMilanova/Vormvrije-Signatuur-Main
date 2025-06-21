@@ -579,6 +579,19 @@ p {
     padding: 22vh 0;
 }
 
+.header-create2{
+    background-color: #FFFFFF;
+}
+
+.h1-ontwerpende2 {
+    font-size: 16.7rem;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-align: right;
+    padding: 22vh 0;
+}
+
 .span-ontwerpende {
     font-size: 23rem;
 }
@@ -592,6 +605,12 @@ p {
 .header-create {
     background-color: #FFFFFF;
     height: 100vh;
+}
+
+.header-create {
+    background-color: #000;
+    height: 100vh;
+    color: #FFFFFF;
 }
 
 .div-one-section-create-wanted {
@@ -1484,7 +1503,7 @@ body {
 
 
   .splash {
-      background: url("images/upscalemedia-transformed (9).png");
+      background: url("../images/BETROKKEN/pencil.png");
       height: 30vw;
       width: 30vw;
       margin-left: -9vw;
@@ -1499,20 +1518,23 @@ body {
       align-items: center;
   }
 
-  .main-bet {
+  .main-ont {
       background-color: black;
       width: 100vw;
       padding: 5vw;
       color: #FFFFFF;
   }
 
+  .main-bet {
+      background-color: #FFF;
+      width: 100vw;
+      padding: 5vw;
+      color: #000;
+  }
+
 .body-black {
     background-color: black;
 }
-
-/*.section-bet1 {*/
-/*    color: #FFFFFF;*/
-/*}*/
 
 .custom-flex {
     display: flex;
@@ -1723,7 +1745,14 @@ body {
     margin-top: 15vw;
 }
 
-
+.drop-cap::first-letter {
+    font-size: 3em; /* Makes the first letter 3 times the normal size */
+    float: left; /* Allows the text to wrap around the letter */
+    line-height: 1; /* Adjust line height to match the rest of the text */
+    margin-right: 0.1em; /* Adds a bit of space between the letter and the text */
+    margin-top: 0.1em; /* Optional: Adjust to align visually */
+    font-weight: bold; /* Optional: Make it bold for emphasis */
+}
 
 
 
