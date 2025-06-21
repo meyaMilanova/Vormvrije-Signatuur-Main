@@ -1072,6 +1072,18 @@ p {
     justify-content: center;
 }
 
+
+.section-create-confetti3 {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    background: #FFF;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
 .textcontainer {
     position: absolute;
     text-align: center;
@@ -1079,6 +1091,15 @@ p {
     font-weight: bold;
     z-index: 5;
     color: #FFF;    
+}
+
+.section-create-confetti3 .textcontainer {
+    position: absolute;
+    text-align: center;
+    font-size: 19rem;
+    font-weight: bold;
+    z-index: 5;
+    color: black;
 }
 
 .particle {
@@ -1113,6 +1134,24 @@ p {
     background-color: #fff;
 }
 .particle2.c3 {
+    background-color: #818181;
+}
+
+
+.particle3 {
+    position: absolute;
+    opacity: 0;
+    animation: confetti 3s ease-in infinite;
+}
+
+.particle3.c1 {
+    background-color: #FF5A00;
+}
+
+.particle3.c2 {
+    background-color: #000000;
+}
+.particle3.c3 {
     background-color: #818181;
 }
 
@@ -1500,10 +1539,7 @@ body {
     z-index: 1000;
   }
 
-
-
   .splash {
-      background: url("../images/BETROKKEN/pencil.png");
       height: 30vw;
       width: 30vw;
       margin-left: -9vw;
@@ -1746,12 +1782,141 @@ body {
 }
 
 .drop-cap::first-letter {
-    font-size: 3em; /* Makes the first letter 3 times the normal size */
-    float: left; /* Allows the text to wrap around the letter */
-    line-height: 1; /* Adjust line height to match the rest of the text */
-    margin-right: 0.1em; /* Adds a bit of space between the letter and the text */
-    margin-top: 0.1em; /* Optional: Adjust to align visually */
-    font-weight: bold; /* Optional: Make it bold for emphasis */
+    font-size: 4vw;
+    float: left;
+    line-height: 1;
+    margin-right: 0.1em;
+    margin-top: 0.1em;
+    font-weight: bold;
+    font-family: Gotham;
+    color: #818181;
+}
+
+
+.section-book {
+    margin: 15vw -5vw;
+}
+
+.div-cover {
+    background-color: #FF5A00;
+    color: black;
+    padding: 0 3vw 0 3vw;
+    /*width: 50vw;*/
+}
+
+.h2-cover {
+    font-size: 11vw;
+    margin-top: 5vw;
+}
+
+.splash2 {
+    height: 13vw;
+    width: 13vw;
+    rotate: 86.5deg;
+    margin: -50vw 0 7vw 15vw;
+}
+
+.span-cover {
+    color: #FF5A00;
+}
+
+.h4-cover {
+    color: #FFFFFF;
+    font-size: 2.2vw;
+    margin-top: -0.5vw;
+}
+
+.h3-cover {
+    font-size: 4.9vw;
+    margin-top: 8vw;
+}
+
+.div-book-1 {
+    background-color: #ecded5;
+    color: black;
+    width: 50vw;
+    padding: 0 3vw;
+    padding-bottom: 2vw;
+}
+
+.div-book-2 {
+    text-align: center;
+}
+
+.p1 {
+    font-size: 7vw;
+    color: #ada19e;
+    font-family: Gotham;
+}
+
+.p2 {
+    font-size: 1vw;
+    margin-top: -10.5vw;
+    margin-bottom: 6vw;
+    font-family: Gotham;
+}
+
+.div-book-1 h5 {
+    text-align: center;
+    font-size: 2vw;
+    line-height: 1.7vw;
+}
+
+.div-book-1 p {
+    font-family: Cambria;
+    line-height: 1.6vw;
+    font-size: 0.9vw;
+}
+
+.div-book-1 h6 {
+    font-size: 1.2vw;
+    margin-bottom: -0.5vw;
+    margin-top: 1.2vw;
+}
+
+
+
+
+
+
+
+
+
+.div-book-img {
+    position: relative;
+    z-index: 5;
+    /*width: 100%; !* Set the width of the div to fit the section *!*/
+    /*height: 100%;*/
+}
+
+.div-book-img img {
+    position: absolute;
+    z-index: 100;
+}
+
+.person-leaning{
+    height: 6vw;
+    width: auto;
+    margin-left: -51.47vw;
+    margin-top: 118.5vw
+}
+
+.person-watching{
+    height: 5.45vw;
+    width: auto;
+    margin-left: -53.5vw;
+    margin-top: 119vw
+}
+
+.boundaries {
+    height: 5.45vw;
+    width: auto;
+    margin-left: -60.5vw;
+    margin-top: 122vw;
+    margin-bottom: -3.2vw;
+    font-size: 0.7vw;
+    color: black;
+
 }
 
 
@@ -1790,27 +1955,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media (max-width: 2550px) and (min-width: 1920px) {
+@media (max-width: 2550px) and (min-width: 1920px) {
     h2 {
         font-size: 8rem;
     }
