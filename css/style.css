@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 @font-face {
     font-family: 'Helvetica Neue';
     src: url(/fonts/HelveticaNeueUltraLight.otf) format('opentype');
@@ -118,13 +116,19 @@
 
 html  {
     margin: 0;
+    overflow-x: hidden;
+
 }
 
 body {
     margin: 0;
     background-color: #f5f5f5;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
     /* overflow: hidden; */
     /* font-family: Arial, sans-serif; */
+
   }
 
   .circle-mouse {
@@ -156,9 +160,6 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-html, body {
-    overflow-x: hidden;
-}
 
 * {
     box-sizing: border-box;
@@ -1078,6 +1079,28 @@ p {
     background-color: #818181;
 }
 
+
+.particle2 {
+    position: absolute;
+    opacity: 0;
+    animation: confetti 3s ease-in infinite;
+}
+
+.particle2.c1 {
+    background-color: #FF5A00;
+}
+
+.particle2.c2 {
+    background-color: #fff;
+}
+.particle2.c3 {
+    background-color: #818181;
+}
+
+
+
+
+
 @keyframes confetti {
     0% {
         transform: translateY(0) rotate(0deg);
@@ -1480,15 +1503,16 @@ body {
       background-color: black;
       width: 100vw;
       padding: 5vw;
+      color: #FFFFFF;
   }
 
 .body-black {
     background-color: black;
 }
 
-.section-bet1 {
-    color: #FFFFFF;
-}
+/*.section-bet1 {*/
+/*    color: #FFFFFF;*/
+/*}*/
 
 .custom-flex {
     display: flex;
@@ -1497,6 +1521,158 @@ body {
     align-items: end;
 }
 
+.text-11 {
+    text-align: justify;
+    padding: 0 13vw 0 46vw;
+}
+
+.text-12 {
+    text-align: justify;
+    padding: 0 0 0 25vw;
+}
+
+.img-11 {
+    rotate: 45deg;
+    width: 90vw;
+    height: 90vw;
+    margin: -33vw -15vw -40vw -35vw ;
+}
+
+.section-12 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2-12 {
+    letter-spacing: -1.5vw;
+    font-size: 17vw;
+    margin-left: -3vw;
+}
+
+.div1-12 {
+    margin-top: 3.3vw;
+}
+
+.img-12 {
+    margin-bottom: -8.9vw;
+    margin-left: -40vw;
+}
+
+.dotdot {
+    color: black;
+    font-size: 10vw;
+}
+
+.div2-12 {
+    background-color: #FF5A00;
+    padding: 0.8vw 2.5vw;
+    text-align: center;
+    border-radius: 0.5vw;
+    width: 40vw;
+}
+
+.h3-12 {
+    font-size: 1.2vw;
+    margin-bottom: 0;
+    margin-top: 1vw;
+    color: black;
+}
+
+.p-12 {
+    margin-top: 0;
+    font-size: 0.8vw;
+    line-height: 1.6vw;
+    margin-bottom: 1.6vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.section-13 {
+    margin: 0 -5vw;
+}
+
+.img-13 {
+    object-fit: contain;
+    height: auto;
+    width: 25vw;
+    padding-left: 2vw;
+    padding-right: 0.5vw;
+
+}
+
+.h21-13 {
+    font-size: 13vw;
+    letter-spacing: -0.9vw;
+    margin: 0;
+    background-color: #FFFFFF;
+    border-radius: 0.5vw 0 0 0;
+    color: black;
+    padding-right: 5vw;
+    padding-left: 0.9vw;
+}
+
+.p1-13 {
+    text-align: justify;
+    width: 50vw;
+    background-color: #FFFFFF;
+    border-radius: 0 0 0.5vw 0  ;
+    color: black;
+    padding: 2vw 1.2vw 1vw 4vw;
+    margin-top: 0;
+}
+
+.h22-13 {
+    font-size: 10.5vw;
+    letter-spacing: -0.8vw;
+    margin-top: 5vw;
+    padding-left: 0.5vw;
+    margin-bottom: -0.9vw;
+}
+
+.p2-13 {
+    text-align: justify;
+    width: 34.5vw;
+    padding-left: 4vw;
+    padding-right: 1.2vw;
+    padding-top: 0.3vw;
+    line-height: 3vw;
+}
+
+.h23-13 {
+    font-size: 10vw;
+    letter-spacing: -0.4vw;
+    margin: 0;
+}
+
+.section-14 {
+    background-image: url("../images/BETROKKEN/download (96).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    align-items: end;
+}
+
+.h2-14 {
+    font-size: 8.8vw;
+    letter-spacing: -0.5vw;
+}
+
+.p-14 {
+    background-color: #FFFFFF;
+    color: black;
+    width: 45vw;
+    text-align: justify;
+    padding: 2vw 3vw;
+    margin-right: 3vw;
+    border-radius: 0.5vw;
+}
 
 
 
@@ -1511,8 +1687,41 @@ body {
 
 
 
+.section-16 {
+    display: flex;
+    text-align: justify;
+    gap: 5%;
+}
 
+.div1-16, .div2-16 {
+    width: 47.5%;
+}
 
+.div2-16 {
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    align-items: end;
+}
+
+/*.h22-16, .p2-16 {*/
+/*    padding-right: 5vw;*/
+/*}*/
+
+.img1-16 {
+    width: 50vw;
+    margin-left: -5vw;
+}
+
+.img2-16 {
+    width: 50vw;
+    margin-top: 13vw;
+    margin-right: -5vw;
+}
+
+.h21-16 {
+    margin-top: 15vw;
+}
 
 
 
