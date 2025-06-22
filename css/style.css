@@ -549,6 +549,11 @@ p {
     background-color: #FF5A00;
 }
 
+.body-white{
+    background-color: #ffffff;
+    padding: 0 5vw;
+}
+
 .body-orange {
     font-family: Gotham;
 
@@ -2085,6 +2090,135 @@ hr {
     text-align: justify;
 }
 
+.header-choice-title2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #FFF;
+}
+
+.h1-choice-title2 {
+    font-size: 43rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.bbbb {
+    background-color: #FFFFFF;
+}
+
+.main-white {
+    background-color: #FFFFFF;
+    padding: 0 5vw;
+}
+
+
+.section-23 {
+    margin-top: 10vw;
+}
+
+.h21-23 {
+    text-align: end;
+    padding-right: 12.5vw;
+    margin-bottom: 7vw;
+}
+
+.div-23 {
+    display: flex;
+    justify-items: start;
+    align-items: start;
+}
+
+.img-23 {
+    width: 20vw;
+    margin-top: -5vw;
+}
+
+.p-23 {
+    padding: 0 0 0 5vw;
+    text-align: justify;
+    margin-top: -2vw;
+}
+
+.h22-23 {
+    rotate: 90deg;
+    margin-bottom: 0;
+    margin-left: -5vw;
+    margin-right: 0;
+    color: #FF5A00;
+}
+
+.section-24 {
+    margin-top: 10vw;
+}
+
+
+.h21-24 {
+    text-align: start;
+    padding-left: 12.5vw;
+    margin-bottom: 7vw;
+}
+
+.div-24 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.img-24 {
+    width: 20vw;
+    margin-top: -5vw;
+}
+
+.p-24 {
+    padding: 0 5vw 0 0;
+    text-align: justify;
+    margin-top: -2vw;
+}
+
+.h22-24 {
+    rotate: -90deg;
+    margin-bottom: 0;
+    margin-right: -5vw;
+    margin-left: 0;
+    color: #FF5A00;
+}
+
+.section-25 {
+    display: flex;
+    gap: 10vw;
+    margin-top: 10vw;
+}
+
+.h2-25 {
+    margin-top: 0;
+}
+
+.div-25 {
+    text-align: justify;
+}
+
+.section-26 {
+    margin: 10vw 5vw;
+    background-color: #FF5A00;
+    padding: 3vw 3vw 0 3vw;
+    border-radius: 0.5vw;
+}
+
+.p-26 {
+    text-align: justify;
+    color: #FFFFFF;
+    padding: 0 4vw;
+}
+
+.h2-26 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 3vw;
+    font-size: 11.5vw;
+}
 
 
 
