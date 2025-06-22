@@ -1603,13 +1603,16 @@ body {
 
 .section-12 {
     display: flex;
+    align-content: start;
     justify-content: space-between;
+    margin-top: 10vw;
 }
 
 .h2-12 {
     letter-spacing: -1.5vw;
     font-size: 17vw;
     margin-left: -3vw;
+    margin-top: 0;
 }
 
 .div1-12 {
@@ -2258,6 +2261,29 @@ hr {
     h2 {
         font-size: 8rem;
     }
+
+    .h1-choice-title2 {
+        font-size: 33rem;
+        font-weight: 900;
+        margin: 0;
+    }
+
+    .h1-ontwerpende2 {
+        font-size: 12rem;
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-align: right;
+        padding: 22vh 0;
+    }
+
+    .h1-am {
+        font-size: 16rem;
+        margin: 0;
+        font-weight: 900;
+        line-height: 18rem;
+        padding-top: 7rem;
+    }
     
     p {
         font-size: 1.3rem;
@@ -2409,7 +2435,30 @@ hr {
     h2 {
         font-size: 5.5rem;
     }
-    
+
+      .h1-ontwerpende2 {
+          font-size: 7rem;
+          margin: 0;
+          font-weight: 900;
+          letter-spacing: 0;
+          text-align: right;
+          padding: 22vh 0;
+      }
+
+      .h1-choice-title2 {
+          font-size: 20rem;
+          font-weight: 900;
+          margin: 0;
+      }
+
+      .h1-am {
+          font-size: 14vw;
+          margin-top: 0;
+          font-weight: 900;
+          line-height: 10rem;
+          padding-top: 7rem;
+      }
+
     p {
         font-size: 1.1rem;
         letter-spacing: 0rem;
