@@ -1922,6 +1922,170 @@ body {
 
 
 
+.div1-17 {
+    display: flex;
+    justify-content: space-between;
+    gap: 7vw;
+}
+
+.p1-17 {
+    width: 45vw;
+    text-align: justify;
+}
+
+.h21-17 {
+    margin-top: 2vw;
+}
+
+.img-17 {
+    width: 90vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.h22-17 {
+    margin-top: 13vw;
+    margin-bottom: 1vw;
+}
+
+hr {
+    height: 0.2vw;
+    background-color: black;
+}
+
+.p2-17 {
+    text-align: justify;
+    padding-left: 35vw;
+}
+
+.h2-18 {
+    margin-top: 11vw;
+    margin-bottom: 1vw;
+}
+
+.div-18 {
+    padding-left: 35vw;
+    gap: 5vw;
+}
+
+.img-18 {
+    width: 22vw;
+}
+
+.span-18 {
+    text-decoration: underline;
+}
+
+.section-19 {
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: start;
+    margin-top: 10vw;
+}
+
+.img-19 {
+    width: 9.6vw;
+    height: auto;
+    object-fit: contain;
+    margin-top: 0.85vw;
+}
+
+.p-19 {
+    text-align: justify;
+    padding: 0 2vw;
+}
+
+.h2-19 {
+    margin: 0;
+}
+
+.section-20 {
+    text-align: center;
+    margin-top: 11vw;
+}
+.h21-20 {
+    margin-bottom: 1vw;
+}
+
+.div-20 {
+    margin-top: 11vw;
+    display: flex;
+    text-align: justify;
+    gap: 5vw;
+}
+
+.h22-20 {
+    margin-top: 0;
+}
+
+.section-21 {
+    margin-top: 16vw;
+    position: relative;
+}
+
+.div1-21 {
+    position: absolute;
+    display: flex;
+    margin-top: -4vw;
+}
+
+.img1-21 {
+    width: 11vw;
+    height: auto;
+    object-fit: contain;
+    margin: 5vw 0 0 5vw;
+}
+
+.img2-21 {
+    width: 15vw;
+    height: auto;
+    object-fit: contain;
+    margin: 0 0 0 70vw;
+}
+
+.img3-21 {
+    width: 18vw;
+    height: auto;
+    object-fit: contain;
+    margin: 18vw 0 0 63vw;
+}
+
+.div2-21 {
+    position: absolute;
+}
+
+.div3-21 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25vw;
+}
+
+.h2-21 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.p-21 {
+    text-align: justify;
+}
+
+
+.section-22 {
+    margin-top: 30vw;
+    gap: 3vw;
+}
+
+.h2-22 {
+    margin-top: 0;
+    font-size: 13vw;
+}
+
+.p-22 {
+    text-align: justify;
+}
+
+
 
 
 
